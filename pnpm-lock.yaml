@@ -14,9 +14,6 @@ importers:
       '@turbo/gen':
         specifier: ^2.3.3
         version: 2.3.3(@types/node@22.10.7)(typescript@5.5.4)
-      prettier:
-        specifier: ^3.2.5
-        version: 3.3.3
       turbo:
         specifier: ^2.3.3
         version: 2.3.3
@@ -46,14 +43,14 @@ importers:
         specifier: workspace:*
         version: link:../../packages/configs
       '@types/node':
-        specifier: ^20
-        version: 20.17.6
+        specifier: ^20.17.14
+        version: 20.17.14
       '@types/react':
-        specifier: 18.3.1
-        version: 18.3.1
+        specifier: 19.0.3
+        version: 19.0.3
       '@types/react-dom':
         specifier: 19.0.3
-        version: 19.0.3(@types/react@18.3.1)
+        version: 19.0.3(@types/react@19.0.3)
       typescript:
         specifier: 5.5.4
         version: 5.5.4
@@ -77,14 +74,14 @@ importers:
         specifier: workspace:*
         version: link:../../packages/configs
       '@types/node':
-        specifier: ^20
-        version: 20.17.6
+        specifier: ^20.17.14
+        version: 20.17.14
       '@types/react':
-        specifier: 18.3.1
-        version: 18.3.1
+        specifier: 19.0.3
+        version: 19.0.3
       '@types/react-dom':
         specifier: 19.0.3
-        version: 19.0.3(@types/react@18.3.1)
+        version: 19.0.3(@types/react@19.0.3)
       typescript:
         specifier: 5.5.4
         version: 5.5.4
@@ -105,16 +102,16 @@ importers:
         version: link:../configs
       '@turbo/gen':
         specifier: ^2.3.3
-        version: 2.3.3(@types/node@20.17.6)(typescript@5.5.4)
+        version: 2.3.3(@types/node@20.17.14)(typescript@5.5.4)
       '@types/node':
-        specifier: ^20.11.24
-        version: 20.17.6
+        specifier: ^20.17.14
+        version: 20.17.14
       '@types/react':
-        specifier: 18.3.0
-        version: 18.3.0
+        specifier: 19.0.3
+        version: 19.0.3
       '@types/react-dom':
         specifier: 19.0.3
-        version: 19.0.3(@types/react@18.3.0)
+        version: 19.0.3(@types/react@19.0.3)
       typescript:
         specifier: 5.5.4
         version: 5.5.4
@@ -401,25 +398,19 @@ packages:
   '@types/minimatch@5.1.2':
     resolution: {integrity: sha512-K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==}
 
-  '@types/node@20.17.6':
-    resolution: {integrity: sha512-VEI7OdvK2wP7XHnsuXbAJnEpEkF6NjSN45QJlL4VGqZSXsnicpesdTWsg9RISeSdYd3yeRj/y3k5KGjUXYnFwQ==}
+  '@types/node@20.17.14':
+    resolution: {integrity: sha512-w6qdYetNL5KRBiSClK/KWai+2IMEJuAj+EujKCumalFOwXtvOXaEan9AuwcRID2IcOIAWSIfR495hBtgKlx2zg==}
 
   '@types/node@22.10.7':
     resolution: {integrity: sha512-V09KvXxFiutGp6B7XkpaDXlNadZxrzajcY50EuoLIpQ6WWYCSvf19lVIazzfIzQvhUN2HjX12spLojTnhuKlGg==}
-
-  '@types/prop-types@15.7.13':
-    resolution: {integrity: sha512-hCZTSvwbzWGvhqxp/RqVqwU999pBf2vp7hzIjiYOsl8wqOmUxkQ6ddw1cV3l8811+kdUFus/q4d1Y3E3SyEifA==}
 
   '@types/react-dom@19.0.3':
     resolution: {integrity: sha512-0Knk+HJiMP/qOZgMyNFamlIjw9OFCsyC2ZbigmEEyXXixgre6IQpm/4V+r3qH4GC1JPvRJKInw+on2rV6YZLeA==}
     peerDependencies:
       '@types/react': ^19.0.0
 
-  '@types/react@18.3.0':
-    resolution: {integrity: sha512-DiUcKjzE6soLyln8NNZmyhcQjVv+WsUIFSqetMN0p8927OztKT4VTfFTqsbAi5oAGIcgOmOajlfBqyptDDjZRw==}
-
-  '@types/react@18.3.1':
-    resolution: {integrity: sha512-V0kuGBX3+prX+DQ/7r2qsv1NsdfnCLnTgnRJ1pYnxykBhGMz+qj+box5lq7XsO5mtZsBqpjwwTu/7wszPfMBcw==}
+  '@types/react@19.0.3':
+    resolution: {integrity: sha512-UavfHguIjnnuq9O67uXfgy/h3SRJbidAYvNjLceB+2RIKVRBzVsh0QO+Pw6BCSQqFS9xwzKfwstXx0m6AbAREA==}
 
   '@types/through@0.0.33':
     resolution: {integrity: sha512-HsJ+z3QuETzP3cswwtzt2vEIiHBk/dCcHGhbmG5X3ecnwFD/lPrMpliGXxSCg03L9AhrdwA4Oz/qfspkDW+xGQ==}
@@ -1036,11 +1027,6 @@ packages:
     resolution: {integrity: sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==}
     engines: {node: ^10 || ^12 || >=14}
 
-  prettier@3.3.3:
-    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
-    engines: {node: '>=14'}
-    hasBin: true
-
   proxy-agent@6.5.0:
     resolution: {integrity: sha512-TmatMXdr2KlRiA2CyDu8GqR8EjahTG3aY3nXjdzFyoZbmB8hrBsTyMezhULIXKnC0jpfjlmiZ3+EaCzoInSu/A==}
     engines: {node: '>= 14'}
@@ -1563,7 +1549,7 @@ snapshots:
 
   '@tsconfig/node16@1.0.4': {}
 
-  '@turbo/gen@2.3.3(@types/node@20.17.6)(typescript@5.5.4)':
+  '@turbo/gen@2.3.3(@types/node@20.17.14)(typescript@5.5.4)':
     dependencies:
       '@turbo/workspaces': 2.3.3
       commander: 10.0.1
@@ -1573,7 +1559,7 @@ snapshots:
       node-plop: 0.26.3
       picocolors: 1.0.1
       proxy-agent: 6.5.0
-      ts-node: 10.9.2(@types/node@20.17.6)(typescript@5.5.4)
+      ts-node: 10.9.2(@types/node@20.17.14)(typescript@5.5.4)
       update-check: 1.5.4
       validate-npm-package-name: 5.0.1
     transitivePeerDependencies:
@@ -1620,7 +1606,7 @@ snapshots:
   '@types/glob@7.2.0':
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 20.17.6
+      '@types/node': 22.10.7
 
   '@types/inquirer@6.5.0':
     dependencies:
@@ -1629,7 +1615,7 @@ snapshots:
 
   '@types/minimatch@5.1.2': {}
 
-  '@types/node@20.17.6':
+  '@types/node@20.17.14':
     dependencies:
       undici-types: 6.19.8
 
@@ -1637,29 +1623,17 @@ snapshots:
     dependencies:
       undici-types: 6.20.0
 
-  '@types/prop-types@15.7.13': {}
-
-  '@types/react-dom@19.0.3(@types/react@18.3.0)':
+  '@types/react-dom@19.0.3(@types/react@19.0.3)':
     dependencies:
-      '@types/react': 18.3.0
+      '@types/react': 19.0.3
 
-  '@types/react-dom@19.0.3(@types/react@18.3.1)':
+  '@types/react@19.0.3':
     dependencies:
-      '@types/react': 18.3.1
-
-  '@types/react@18.3.0':
-    dependencies:
-      '@types/prop-types': 15.7.13
-      csstype: 3.1.3
-
-  '@types/react@18.3.1':
-    dependencies:
-      '@types/prop-types': 15.7.13
       csstype: 3.1.3
 
   '@types/through@0.0.33':
     dependencies:
-      '@types/node': 20.17.6
+      '@types/node': 22.10.7
 
   '@types/tinycolor2@1.4.6': {}
 
@@ -2330,8 +2304,6 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  prettier@3.3.3: {}
-
   proxy-agent@6.5.0:
     dependencies:
       agent-base: 7.1.3
@@ -2556,14 +2528,14 @@ snapshots:
     dependencies:
       is-number: 7.0.0
 
-  ts-node@10.9.2(@types/node@20.17.6)(typescript@5.5.4):
+  ts-node@10.9.2(@types/node@20.17.14)(typescript@5.5.4):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.17.6
+      '@types/node': 20.17.14
       acorn: 8.14.0
       acorn-walk: 8.3.4
       arg: 4.1.3

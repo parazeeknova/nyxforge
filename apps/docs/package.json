@@ -18,8 +18,8 @@
 	},
 	"devDependencies": {
 		"@forge/configs": "workspace:*",
-		"@types/node": "^20",
-		"@types/react": "18.3.1",
+		"@types/node": "^20.17.14",
+		"@types/react": "19.0.3",
 		"@types/react-dom": "19.0.3",
 		"typescript": "5.5.4"
 	}
