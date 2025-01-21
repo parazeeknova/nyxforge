@@ -52,8 +52,8 @@ importers:
         specifier: 18.3.1
         version: 18.3.1
       '@types/react-dom':
-        specifier: 18.3.0
-        version: 18.3.0
+        specifier: 19.0.3
+        version: 19.0.3(@types/react@18.3.1)
       typescript:
         specifier: 5.5.4
         version: 5.5.4
@@ -83,8 +83,8 @@ importers:
         specifier: 18.3.1
         version: 18.3.1
       '@types/react-dom':
-        specifier: 18.3.0
-        version: 18.3.0
+        specifier: 19.0.3
+        version: 19.0.3(@types/react@18.3.1)
       typescript:
         specifier: 5.5.4
         version: 5.5.4
@@ -113,8 +113,8 @@ importers:
         specifier: 18.3.0
         version: 18.3.0
       '@types/react-dom':
-        specifier: 18.3.1
-        version: 18.3.1
+        specifier: 19.0.3
+        version: 19.0.3(@types/react@18.3.0)
       typescript:
         specifier: 5.5.4
         version: 5.5.4
@@ -407,11 +407,10 @@ packages:
   '@types/prop-types@15.7.13':
     resolution: {integrity: sha512-hCZTSvwbzWGvhqxp/RqVqwU999pBf2vp7hzIjiYOsl8wqOmUxkQ6ddw1cV3l8811+kdUFus/q4d1Y3E3SyEifA==}
 
-  '@types/react-dom@18.3.0':
-    resolution: {integrity: sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==}
-
-  '@types/react-dom@18.3.1':
-    resolution: {integrity: sha512-qW1Mfv8taImTthu4KoXgDfLuk4bydU6Q/TkADnDWWHwi4NX4BR+LWfTp2sVmTqRrsHvyDDTelgelxJ+SsejKKQ==}
+  '@types/react-dom@19.0.3':
+    resolution: {integrity: sha512-0Knk+HJiMP/qOZgMyNFamlIjw9OFCsyC2ZbigmEEyXXixgre6IQpm/4V+r3qH4GC1JPvRJKInw+on2rV6YZLeA==}
+    peerDependencies:
+      '@types/react': ^19.0.0
 
   '@types/react@18.3.0':
     resolution: {integrity: sha512-DiUcKjzE6soLyln8NNZmyhcQjVv+WsUIFSqetMN0p8927OztKT4VTfFTqsbAi5oAGIcgOmOajlfBqyptDDjZRw==}
@@ -1606,11 +1605,11 @@ snapshots:
 
   '@types/prop-types@15.7.13': {}
 
-  '@types/react-dom@18.3.0':
+  '@types/react-dom@19.0.3(@types/react@18.3.0)':
     dependencies:
-      '@types/react': 18.3.1
+      '@types/react': 18.3.0
 
-  '@types/react-dom@18.3.1':
+  '@types/react-dom@19.0.3(@types/react@18.3.1)':
     dependencies:
       '@types/react': 18.3.1
 
