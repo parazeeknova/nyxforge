@@ -15,7 +15,7 @@
 	"devDependencies": {
 		"@forge/configs": "workspace:*",
 		"@turbo/gen": "^1.12.4",
-		"@types/node": "^20.11.24",
+		"@types/node": "^22.10.7",
 		"@types/react": "18.3.0",
 		"@types/react-dom": "18.3.1",
 		"typescript": "5.5.4"
