@@ -19,7 +19,7 @@
 		"@turbo/gen": "^1.12.4",
 		"prettier": "^3.2.5",
 		"turbo": "^2.3.3",
-		"typescript": "5.5.4",
+		"typescript": "5.7.3",
 		"ultracite": "4.1.15"
 	},
 	"packageManager": "pnpm@9.0.0",
