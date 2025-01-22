@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "new-york",
+  "rsc": true,
+  "tsx": true,
+  "tailwind": {
+    "config": "../tailwind/configs/config.ts",
+    "css": "styles/globals.css",
+    "baseColor": "neutral",
+    "cssVariables": true
+  },
+  "aliases": {
+    "components": "@forge/ui/shad-components",
+    "utils": "@forge/ui/lib/utils",
+    "hooks": "@forge/ui/hooks",
+    "lib": "@forge/ui/lib",
+    "ui": "@forge/ui/shad-components/ui"
+  }
+}

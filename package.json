@@ -1,28 +1,40 @@
 {
-	"name": "wyrdforge",
-	"version": "0.0.1",
-	"private": true,
-	"scripts": {
-		"build": "turbo build",
-		"dev": "turbo dev",
-		"lint": "ultracite lint",
-		"format": "ultracite format",
-		"test": "turbo test",
-		"analyze": "turbo analyze",
-		"bump-deps": "npx npm-check-updates --deep -u -x react-day-picker && pnpm install",
-		"bump-ui": "npx shadcn@latest add --all --overwrite -c packages/ui",
-		"migrate": "cd packages/database && npx prisma format && npx prisma generate && npx prisma db push",
-		"clean": "git clean -xdf node_modules"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "^1.9.4",
-		"@turbo/gen": "^2.3.3",
-		"turbo": "^2.3.3",
-		"typescript": "5.5.4",
-		"ultracite": "4.1.15"
-	},
-	"packageManager": "pnpm@9.0.0",
-	"engines": {
-		"node": ">=18"
-	}
+  "name": "wyrdforge",
+  "version": "0.0.1",
+  "bin": {
+    "wyrdforge": "dist/index.js"
+  },
+  "files": ["dist/index.js"],
+  "type": "module",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "ultracite lint",
+    "format": "ultracite format",
+    "test": "turbo test",
+    "analyze": "turbo analyze",
+    "biome:check": "biome check .",
+    "biome:fix": "biome check --write .",
+    "dep:check": "pnpm dlx sherif@latest",
+    "dep:fix": "pnpm dlx sherif@latest --fix",
+    "bump-deps": "npx npm-check-updates --deep -u -x react-day-picker && pnpm install",
+    "bump-ui": "npx shadcn@latest add --all --overwrite -c packages/ui",
+    "migrate": "cd packages/database && npx prisma format && npx prisma generate && npx prisma db push",
+    "clean": "git clean -xdf node_modules"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@forge/configs": "workspace:*",
+    "@turbo/gen": "^2.3.3",
+    "@types/node": "22.10.7",
+    "tsup": "^8.3.5",
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.3",
+    "ultracite": "4.1.15"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "private": true
 }

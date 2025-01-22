@@ -1,8 +1,17 @@
 {
-	"extends": "@forge/configs/react-library.json",
-	"compilerOptions": {
-		"outDir": "dist"
-	},
-	"include": ["src"],
-	"exclude": ["node_modules", "dist"]
+  "extends": "@forge/configs/react-library.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@forge/*": ["../*"],
+      "@forge/ui/*": ["./*"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
 }
