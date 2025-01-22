@@ -1,5 +1,5 @@
 {
-  "name": "wyrdforge",
+  "name": "nyxforge",
   "version": "0.0.1",
   "bin": {
     "wyrdforge": "dist/index.js"
