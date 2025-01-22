@@ -1,5 +1,5 @@
 {
-  "name": "@forge/observability",
+  "name": "@forge/seo",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,17 +7,16 @@
     "typecheck": "tsc --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
-    "@logtail/next": "^0.1.7",
-    "@sentry/nextjs": "^8.51.0",
-    "@t3-oss/env-nextjs": "^0.11.1",
+    "lodash.merge": "^4.6.2",
     "react": "^19.0.0",
-    "zod": "^3.24.1"
+    "schema-dts": "^1.1.2"
   },
   "devDependencies": {
     "@forge/configs": "workspace:*",
+    "@types/lodash.merge": "^4.6.9",
     "@types/node": "22.10.7",
     "@types/react": "19.0.7",
     "@types/react-dom": "19.0.3",
-    "typescript": "^5.7.3"
+    "next": "^15.1.6"
   }
 }
