@@ -1,3 +1,15 @@
+# v0.0.4 (Thu Jan 23 2025)
+
+#### ⚠️ Pushed to `master`
+
+- fix[GEN]: Fixed turbo generator file locations ([@parazeeknova](https://github.com/parazeeknova))
+
+#### Authors: 1
+
+- Harsh ([@parazeeknova](https://github.com/parazeeknova))
+
+---
+
 # v0.0.3 (Thu Jan 23 2025)
 
 #### ⚠️ Pushed to `master`
