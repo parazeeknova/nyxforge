@@ -1,3 +1,15 @@
+# v0.0.3 (Thu Jan 23 2025)
+
+#### ⚠️ Pushed to `master`
+
+- feat[NPM]: removed private tag ([@parazeeknova](https://github.com/parazeeknova))
+
+#### Authors: 1
+
+- Harsh ([@parazeeknova](https://github.com/parazeeknova))
+
+---
+
 # v0.0.2 (Thu Jan 23 2025)
 
 :tada: This release contains work from new contributors! :tada:
