@@ -1,6 +1,6 @@
 {
   "name": "nyxforge",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "bin": {
     "nyxforge": "dist/index.js"
   },
