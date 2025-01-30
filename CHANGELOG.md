@@ -1,3 +1,25 @@
+# v0.0.5 (Thu Jan 30 2025)
+
+:tada: This release contains work from a new contributor! :tada:
+
+Thank you, Imgbot ([@ImgBotApp](https://github.com/ImgBotApp)), for all your work!
+
+#### 🐛 Bug Fix
+
+- [ImgBot] Optimize images [#8](https://github.com/parazeeknova/nyxforge/pull/8) ([@ImgBotApp](https://github.com/ImgBotApp) [@imgbot[bot]](https://github.com/imgbot[bot]))
+
+#### ⚠️ Pushed to `master`
+
+- docs[README]: Added readme ([@parazeeknova](https://github.com/parazeeknova))
+
+#### Authors: 3
+
+- [@imgbot[bot]](https://github.com/imgbot[bot])
+- Harsh ([@parazeeknova](https://github.com/parazeeknova))
+- Imgbot ([@ImgBotApp](https://github.com/ImgBotApp))
+
+---
+
 # v0.0.4 (Thu Jan 23 2025)
 
 #### ⚠️ Pushed to `master`
