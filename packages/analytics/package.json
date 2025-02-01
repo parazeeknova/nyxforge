@@ -19,7 +19,7 @@
   "devDependencies": {
     "@forge/configs": "workspace:*",
     "@types/node": "22.10.7",
-    "@types/react": "19.0.7",
+    "@types/react": "19.0.8",
     "@types/react-dom": "19.0.3"
   }
 }
