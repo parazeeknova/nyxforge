@@ -10,7 +10,7 @@
     "@forge/configs": "workspace:*",
     "@forge/observability": "workspace:*",
     "@forge/tailwind": "workspace:*",
-    "@turbo/gen": "^2.3.3",
+    "@turbo/gen": "^2.4.0",
     "@types/node": "22.10.7",
     "@types/react": "19.0.7",
     "@types/react-dom": "19.0.3",
