@@ -1,7 +1,7 @@
 <div align="center">
 
   <a href="https://github.com/parazeeknova/dotfiles/">
-    <img src="assets/nyxforge.png" alt="Logo" width="98%">
+    <img src="https://github.com/parazeeknova/nyxforge/blob/master/.github/assets/nyxforge.png" alt="Logo" width="98%">
   </a>
   <br>
 
