@@ -18,6 +18,22 @@ or
 npx @parazeeknova/nyxforge@latest init
 ```
 
+##  Package Availability 📦
+NyxForge is distributed through multiple package registries to ensure reliable access:
+
+- **NPM Registry**: `npx nyxforge@latest init`
+  - The primary distribution channel
+  - Available globally through npmjs.com
+
+- **GitHub Packages**: `npx @parazeeknova/nyxforge@latest init`
+  - Alternative distribution channel
+  - Directly integrated with GitHub's ecosystem
+
+Both versions are identical in functionality and are automatically synchronized through our CI/CD pipeline.
+
+> [!NOTE]
+> Github package release may have a version mismatch with the NPM package. But both packages are identical in functionality. (ex: 0.0.11 in NPM may be 0.0.10 in Github)
+
 ## Why Choose NyxForge?
 - Zero Config, Max Productivity: Skip the boilerplate—start coding with prelinked packages, resolved aliases, and unified tooling.
 
