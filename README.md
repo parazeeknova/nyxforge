@@ -1,3 +1,5 @@
+# NyxForge - Production-Ready Next.js Monorepo Starter Template
+
 <div align="center">
 
   <a href="https://github.com/parazeeknova/dotfiles/">
