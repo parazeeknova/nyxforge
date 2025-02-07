@@ -7,13 +7,31 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    # Run after the NPM release is complete
-    needs: release
     if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci')"
     
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Wait for NPM package
+        run: |
+          echo "Waiting for NPM package to be available..."
+          timeout=300  # 5 minutes timeout
+          interval=10  # Check every 10 seconds
+          elapsed=0
+          
+          while [ $elapsed -lt $timeout ]; do
+            if npm view nyxforge version 2>/dev/null; then
+              echo "Package found on NPM!"
+              exit 0
+            fi
+            sleep $interval
+            elapsed=$((elapsed + interval))
+            echo "Still waiting... ($elapsed seconds elapsed)"
+          done
+          
+          echo "Timeout waiting for NPM package"
+          exit 1
 
       - name: Install Node.js
         uses: actions/setup-node@v4
@@ -52,11 +70,15 @@ jobs:
 
       - name: Prepare and publish to GitHub Packages
         run: |
+          # Get the current version from NPM
+          NPM_VERSION=$(npm view nyxforge version)
+          echo "Publishing version $NPM_VERSION to GitHub Packages"
+          
           # Create temporary package.json for GitHub Packages
           cp package.json package.json.tmp
           
           # Update package.json for GitHub Packages
-          jq '.name = "@parazeeknova/nyxforge" | .private = false | .publishConfig.registry = "https://npm.pkg.github.com"' package.json.tmp > package.json
+          jq --arg version "$NPM_VERSION" '.name = "@parazeeknova/nyxforge" | .private = false | .version = $version | .publishConfig.registry = "https://npm.pkg.github.com"' package.json.tmp > package.json
           
           # Publish package
           npm publish
