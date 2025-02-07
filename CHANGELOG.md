@@ -1,3 +1,15 @@
+# v0.0.10 (Fri Feb 07 2025)
+
+#### ⚠️ Pushed to `master`
+
+- fix[VERSION]: Fix version mismatch between npm and github packages ([@parazeeknova](https://github.com/parazeeknova))
+
+#### Authors: 1
+
+- Harsh ([@parazeeknova](https://github.com/parazeeknova))
+
+---
+
 # v0.0.9 (Fri Feb 07 2025)
 
 #### ⚠️ Pushed to `master`
