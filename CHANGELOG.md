@@ -1,3 +1,15 @@
+# v0.0.14 (Fri Feb 07 2025)
+
+#### ⚠️ Pushed to `master`
+
+- docs[README]: fix npm description ([@parazeeknova](https://github.com/parazeeknova))
+
+#### Authors: 1
+
+- Harsh ([@parazeeknova](https://github.com/parazeeknova))
+
+---
+
 # v0.0.13 (Fri Feb 07 2025)
 
 #### ⚠️ Pushed to `master`
