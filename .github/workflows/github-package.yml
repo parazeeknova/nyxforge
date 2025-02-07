@@ -1,32 +1,31 @@
-# Name of our action
-name: Release
+name: Publish to GitHub Packages
 
-# The event that will trigger the action
 on:
   push:
     branches: [master]
 
-# what the action will do
 jobs:
-  release:
-    # The operating system it will run on
+  publish:
     runs-on: ubuntu-latest
-    # This check needs to be in place to prevent a publish loop with auto and github actions
+    # Run after the NPM release is complete
+    needs: release
     if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci')"
-    # The list of steps that the action will go through
+    
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Prepare repository
-        run: git fetch --unshallow --tags
-
       - name: Install Node.js
         uses: actions/setup-node@v4
+        with:
+          node-version: '18.x'
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@parazeeknova'
 
       - uses: pnpm/action-setup@v4
         name: Install pnpm
         with:
+          version: 10.2.1
           run_install: false
 
       - name: Get pnpm store directory
@@ -51,8 +50,18 @@ jobs:
       - name: Copy README
         run: cp README.md dist/
 
-      - name: Create Release
+      - name: Prepare and publish to GitHub Packages
+        run: |
+          # Create temporary package.json for GitHub Packages
+          cp package.json package.json.tmp
+          
+          # Update package.json for GitHub Packages
+          jq '.name = "@parazeeknova/nyxforge" | .private = false | .publishConfig.registry = "https://npm.pkg.github.com"' package.json.tmp > package.json
+          
+          # Publish package
+          npm publish
+          
+          # Restore original package.json
+          mv package.json.tmp package.json
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx auto shipit
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
