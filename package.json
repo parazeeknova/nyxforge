@@ -4,9 +4,7 @@
   "bin": {
     "nyxforge": "dist/index.js"
   },
-  "files": [
-    "dist/index.js"
-  ],
+  "files": ["dist/index.js"],
   "type": "module",
   "publishConfig": {
     "access": "public"
@@ -33,17 +31,32 @@
     "@forge/configs": "workspace:*",
     "@turbo/gen": "^2.4.0",
     "@types/node": "22.10.7",
-    "tsup": "^8.3.5",
-    "turbo": "^2.3.3",
+    "tsup": "^8.3.6",
+    "turbo": "^2.4.0",
     "typescript": "^5.7.3",
     "ultracite": "4.1.17"
   },
-  "packageManager": "pnpm@9.0.0",
   "engines": {
     "node": ">=18"
   },
   "dependencies": {
     "@clack/prompts": "^0.9.1",
     "commander": "^13.1.0"
-  }
+  },
+  "packageManager": "pnpm@10.2.1",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@biomejs/biome",
+      "@prisma/client",
+      "@prisma/engines",
+      "@sentry/cli",
+      "bufferutil",
+      "core-js",
+      "core-js-pure",
+      "esbuild",
+      "prisma",
+      "sharp"
+    ]
+  },
+  "private": true
 }
