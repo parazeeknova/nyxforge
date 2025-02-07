@@ -1,3 +1,15 @@
+# v0.0.8 (Fri Feb 07 2025)
+
+#### ⚠️ Pushed to `master`
+
+- fix[ACTIONS]: Wait for release to publish then commit ([@parazeeknova](https://github.com/parazeeknova))
+
+#### Authors: 1
+
+- Harsh ([@parazeeknova](https://github.com/parazeeknova))
+
+---
+
 # v0.0.7 (Fri Feb 07 2025)
 
 #### ⚠️ Pushed to `master`
