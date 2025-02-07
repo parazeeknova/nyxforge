@@ -68,10 +68,10 @@ jobs:
       - name: Copy README
         run: cp README.md dist/
 
-      - name: Prepare and publish to GitHub Packages
+      - name: Publish to GitHub Packages
         run: |
-          # Get the current version from NPM
-          NPM_VERSION=$(npm view nyxforge version)
+          # Get the version from the latest git tag
+          NPM_VERSION=$(git describe --tags --abbrev=0 | sed 's/v//')
           echo "Publishing version $NPM_VERSION to GitHub Packages"
           
           # Create temporary package.json for GitHub Packages
