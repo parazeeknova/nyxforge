@@ -1,3 +1,27 @@
+# v0.0.6 (Fri Feb 07 2025)
+
+#### ⚠️ Pushed to `master`
+
+- chore[BUMP]: Bumped packages ([@parazeeknova](https://github.com/parazeeknova))
+
+#### 🔩 Dependency Updates
+
+- build(deps): bump @radix-ui/react-menubar from 1.1.4 to 1.1.6 [#19](https://github.com/parazeeknova/nyxforge/pull/19) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- build(deps-dev): bump ultracite from 4.1.15 to 4.1.17 [#17](https://github.com/parazeeknova/nyxforge/pull/17) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- build(deps): bump @radix-ui/react-alert-dialog from 1.1.4 to 1.1.5 [#16](https://github.com/parazeeknova/nyxforge/pull/16) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- build(deps): bump react-day-picker from 8.10.1 to 9.5.1 [#15](https://github.com/parazeeknova/nyxforge/pull/15) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- build(deps): bump @t3-oss/env-nextjs from 0.11.1 to 0.12.0 [#13](https://github.com/parazeeknova/nyxforge/pull/13) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- build(deps-dev): bump @turbo/gen from 2.3.3 to 2.4.0 [#12](https://github.com/parazeeknova/nyxforge/pull/12) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- build(deps): bump @prisma/nextjs-monorepo-workaround-plugin from 6.2.1 to 6.3.0 [#10](https://github.com/parazeeknova/nyxforge/pull/10) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- build(deps): bump @radix-ui/react-context-menu from 2.2.4 to 2.2.5 [#9](https://github.com/parazeeknova/nyxforge/pull/9) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Harsh ([@parazeeknova](https://github.com/parazeeknova))
+
+---
+
 # v0.0.5 (Thu Jan 30 2025)
 
 :tada: This release contains work from a new contributor! :tada:
