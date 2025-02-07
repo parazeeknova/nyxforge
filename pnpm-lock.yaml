@@ -238,8 +238,8 @@ importers:
         specifier: ^15.1.6
         version: 15.1.6(bufferutil@4.0.9)
       '@prisma/nextjs-monorepo-workaround-plugin':
-        specifier: ^6.2.1
-        version: 6.2.1
+        specifier: ^6.3.0
+        version: 6.3.0
       '@t3-oss/env-core':
         specifier: ^0.11.1
         version: 0.11.1(typescript@5.7.3)(zod@3.24.1)
@@ -1396,8 +1396,8 @@ packages:
   '@prisma/instrumentation@5.22.0':
     resolution: {integrity: sha512-LxccF392NN37ISGxIurUljZSh1YWnphO34V5a0+T7FVQG2u9bhAXRTJpgmQ3483woVhkraQZFF7cbRrpbw/F4Q==}
 
-  '@prisma/nextjs-monorepo-workaround-plugin@6.2.1':
-    resolution: {integrity: sha512-pUiLbQJQPvH4U8b6Ow984L+0Sz+yMfv9oOPjBj+RKs/ds9/8APnXyRlTaolmKFG+5uMWdGpll+cVN+eFt+CFEg==}
+  '@prisma/nextjs-monorepo-workaround-plugin@6.3.0':
+    resolution: {integrity: sha512-Pz7AT6nqsAXaaMk3eh4gaeYq6Amajtakys68um7PDT0ivzukBmtAJwpM+uyM6XBn8LrOIIkoCsqU9TL4feez3w==}
 
   '@radix-ui/number@1.1.0':
     resolution: {integrity: sha512-V3gRzhVNU1ldS5XhAPTom1fOIo4ccrjjJgmE+LI2h/WaFpHmx0MQApT+KZHnx8abG6Avtfcz4WoEciMnpFT3HQ==}
@@ -6545,7 +6545,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@prisma/nextjs-monorepo-workaround-plugin@6.2.1': {}
+  '@prisma/nextjs-monorepo-workaround-plugin@6.3.0': {}
 
   '@radix-ui/number@1.1.0': {}
 
