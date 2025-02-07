@@ -14,6 +14,8 @@ NyxForge is a meticulously crafted Turborepo starter template designed to accele
 
 ```bash
 npx nyxforge@latest init
+or
+npx @parazeeknova/nyxforge@latest init
 ```
 
 ## Why Choose NyxForge?
