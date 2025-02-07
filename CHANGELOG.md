@@ -1,3 +1,16 @@
+# v0.0.12 (Fri Feb 07 2025)
+
+#### ⚠️ Pushed to `master`
+
+- fix[RELEASE]: Fix release action ([@parazeeknova](https://github.com/parazeeknova))
+- fix[NPM]: Fixing NPM package publish ([@parazeeknova](https://github.com/parazeeknova))
+
+#### Authors: 1
+
+- Harsh ([@parazeeknova](https://github.com/parazeeknova))
+
+---
+
 # v0.0.11 (Fri Feb 07 2025)
 
 #### ⚠️ Pushed to `master`
