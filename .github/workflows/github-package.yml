@@ -12,6 +12,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with: 
+          fetch-depth: 0
+
+      - name: Fetch tags
+        run: git fetch --tags origin
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18.x
+          registry-url: https://npm.pkg.github.com
+          scope: '@parazeeknova'
 
       - name: Wait for NPM package
         run: |
