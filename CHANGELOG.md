@@ -1,3 +1,16 @@
+# v0.0.11 (Fri Feb 07 2025)
+
+#### ⚠️ Pushed to `master`
+
+- docs[README] ([@parazeeknova](https://github.com/parazeeknova))
+- fix[ACTIONS]: Fixing workflow ([@parazeeknova](https://github.com/parazeeknova))
+
+#### Authors: 1
+
+- Harsh ([@parazeeknova](https://github.com/parazeeknova))
+
+---
+
 # v0.0.10 (Fri Feb 07 2025)
 
 #### ⚠️ Pushed to `master`
