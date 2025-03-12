@@ -8,13 +8,14 @@
   },
   "devDependencies": {
     "@forge/configs": "workspace:*",
-    "next": "^15.1.6"
+    "next": "^15.2.2"
   },
   "dependencies": {
-    "@next/bundle-analyzer": "^15.1.6",
-    "@prisma/nextjs-monorepo-workaround-plugin": "^6.3.1",
+    "@next/bundle-analyzer": "^15.2.2",
+    "@prisma/nextjs-monorepo-workaround-plugin": "^6.5.0",
     "@t3-oss/env-core": "^0.11.1",
     "@t3-oss/env-nextjs": "^0.12.0",
-    "zod": "^3.24.1"
+    "require-in-the-middle": "^7.5.2",
+    "zod": "^3.24.2"
   }
 }

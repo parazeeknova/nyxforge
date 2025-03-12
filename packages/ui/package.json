@@ -10,14 +10,16 @@
     "@forge/configs": "workspace:*",
     "@forge/observability": "workspace:*",
     "@forge/tailwind": "workspace:*",
-    "@turbo/gen": "^2.4.0",
+    "@tailwindcss/postcss": "^4.0.13",
+    "@tailwindcss/typography": "^0.5.16",
+    "@turbo/gen": "^2.4.4",
     "@types/node": "22.10.7",
     "@types/react": "19.0.7",
     "@types/react-dom": "19.0.3",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.5.1",
-    "tailwindcss": "^3.4.17",
-    "typescript": "^5.7.3"
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.13",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.8.2"
   },
   "dependencies": {
     "@forge/analytics": "workspace:*",
@@ -58,7 +60,7 @@
     "geist": "^1.3.1",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.473.0",
-    "next-themes": "^0.4.4",
+    "next-themes": "^0.4.6",
     "react": "^19.0.0",
     "react-day-picker": "9.5.1",
     "react-dom": "^19.0.0",
@@ -68,6 +70,6 @@
     "sonner": "^1.7.4",
     "tailwind-merge": "^2.6.0",
     "vaul": "^1.1.2",
-    "zod": "^3.24.1"
+    "zod": "^3.24.2"
   }
 }

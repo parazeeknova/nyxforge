@@ -7,7 +7,7 @@ export default function Home() {
       <main className={styles.main}>
         <Image
           className={styles.logo}
-          src="turborepo-light.svg"
+          src="turborepo-dark.svg"
           alt="Turborepo logo"
           width={180}
           height={38}

@@ -2,10 +2,9 @@ import typography from '@tailwindcss/typography';
 import type { Config } from 'tailwindcss';
 import animate from 'tailwindcss-animate';
 import defaultTheme from 'tailwindcss/defaultTheme';
-import typographyConfig from './typography.config';
 
 export const config: Config = {
-  darkMode: ['class'],
+  darkMode: ['class', '[data-theme="dark"]'],
   content: [
     './node_modules/@repo/design-system/components/**/*.{ts,tsx}',
     './node_modules/@repo/design-system/lib/**/*.{ts,tsx}',
@@ -99,7 +98,6 @@ export const config: Config = {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
-      typography: typographyConfig,
     },
   },
   plugins: [animate, typography],
