@@ -1,3 +1,15 @@
+# v0.0.16 (Wed Mar 12 2025)
+
+#### ⚠️ Pushed to `master`
+
+- chore[BUMP]: Updated packages, moved to tailwind 4 ([@parazeeknova](https://github.com/parazeeknova))
+
+#### Authors: 1
+
+- Harsh ([@parazeeknova](https://github.com/parazeeknova))
+
+---
+
 # v0.0.15 (Fri Feb 14 2025)
 
 #### ⚠️ Pushed to `master`
