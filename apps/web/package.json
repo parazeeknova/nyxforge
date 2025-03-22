@@ -14,12 +14,11 @@
     "@forge/analytics": "workspace:*",
     "@forge/next": "workspace:*",
     "@forge/observability": "workspace:*",
-    "@forge/tailwind": "workspace:*",
     "@forge/ui": "workspace:*",
     "@sentry/nextjs": "^8.55.0",
     "@t3-oss/env-nextjs": "^0.12.0",
     "import-in-the-middle": "^1.13.1",
-    "next": "^15.2.2",
+    "next": "^15.2.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
