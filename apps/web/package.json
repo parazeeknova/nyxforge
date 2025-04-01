@@ -15,7 +15,7 @@
     "@forge/next": "workspace:*",
     "@forge/observability": "workspace:*",
     "@forge/ui": "workspace:*",
-    "@sentry/nextjs": "^8.55.0",
+    "@sentry/nextjs": "^9.10.1",
     "@t3-oss/env-nextjs": "^0.12.0",
     "import-in-the-middle": "^1.13.1",
     "next": "^15.2.3",
