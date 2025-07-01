@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@forge/configs": "workspace:*",
-    "next": "^15.2.3"
+    "next": "^15.3.4"
   },
   "dependencies": {
     "@next/bundle-analyzer": "^15.2.3",
