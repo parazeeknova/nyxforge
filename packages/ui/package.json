@@ -10,7 +10,7 @@
     "@forge/configs": "workspace:*",
     "@forge/observability": "workspace:*",
     "@tailwindcss/postcss": "^4.0.15",
-    "@tailwindcss/typography": "^0.5.16",
+    "@tailwindcss/typography": "^0.5.19",
     "@turbo/gen": "^2.4.4",
     "@types/node": "22.10.7",
     "@types/react": "19.0.7",
