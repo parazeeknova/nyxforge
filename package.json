@@ -12,7 +12,10 @@
     "lint": "turbo lint",
     "format": "turbo format",
     "clean": "turbo clean",
-    "check-types": "tsc --noEmit"
+    "check-types": "turbo check-types",
+    "db:studio": "turbo db:studio",
+    "docker:up": "docker-compose up -d",
+    "docker:clean": "docker-compose down -v"
   },
   "devDependencies": {
     "turbo": "^2.5.8"

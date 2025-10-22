@@ -1,0 +1,16 @@
+{
+  "name": "@nyxforge/config",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "files": [
+    "src"
+  ],
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "next": "^16.0.0"
+  }
+}
