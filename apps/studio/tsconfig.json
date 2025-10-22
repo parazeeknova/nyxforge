@@ -1,5 +1,0 @@
-{
-  "extends": "@forge/configs/nextjs.json",
-  "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
-}

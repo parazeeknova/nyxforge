@@ -1,8 +1,0 @@
-{
-  "extends": "@forge/configs/nextjs.json",
-  "compilerOptions": {
-    "baseUrl": "."
-  },
-  "include": ["./*.ts", "./*.tsx"],
-  "exclude": ["node_modules"]
-}
